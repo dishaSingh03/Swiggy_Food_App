@@ -1,0 +1,77 @@
+.resCard
+{
+    
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    background-color: grey;
+    border: 1px solid rgb(44, 211, 211);
+    
+}
+
+.res-con
+{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.resCard:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.search{
+    padding: 10px;
+}
+
+.foodImg{
+    width: 100%;
+   
+}
+
+.filter-btn{
+    width: 100px;
+    height: 30px;
+   background-color: aqua;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.shimmer-con{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.shimmer-card{
+
+    width: 200px;
+    background-color: grey;
+    border: 1px solid rgb(44, 211, 211);
+
+}
+
+.search{
+    /* height: 30px; */
+    margin-right: 70%;
+
+}
+
+#box{
+    height: 30px;
+}
+
+.search-btn{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.loader{
+   width: 600px;
+   height: 300px;
+    display: "flex";
+    margin-top: 10%;
+    margin-left: 50%;
+}

@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid lightsalmon; */
+
+}
+
+.logo{
+    width: 100px;
+}
+
+.nav-items >ul {
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul >li
+{
+    padding: 10px;
+    margin: 10px;
+}
